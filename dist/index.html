@@ -609,17 +609,17 @@ footer p{color:#ffffff!important}
 }
 
 /* ─ Text block ──────────────────────────────────────────── */
-.mg-2101{margin:20px 0;background:var(--blk-bg,linear-gradient(225deg, #1b1451 0.000%, #242566 14.286%, #303a73 28.571%, #3f5178 42.857%, #506876 57.143%, #627d6c 71.429%, #768e5b 85.714%, #899943 100.000%));color:var(--blk-color,#ffffff)}
+.mg-2101{margin:20px 0;background:var(--kb-b,linear-gradient(225deg, #1b1451 0.000%, #242566 14.286%, #303a73 28.571%, #3f5178 42.857%, #506876 57.143%, #627d6c 71.429%, #768e5b 85.714%, #899943 100.000%));color:var(--kb-c,#ffffff)}
 
 /* ─ Columns block ───────────────────────────────────────── */
-.bl-0394{background:var(--blk-bg,linear-gradient(225deg, #1b1451 0.000%, #242566 14.286%, #303a73 28.571%, #3f5178 42.857%, #506876 57.143%, #627d6c 71.429%, #768e5b 85.714%, #899943 100.000%));color:var(--blk-color,#ffffff)}
+.bl-0394{background:var(--kb-b,linear-gradient(225deg, #1b1451 0.000%, #242566 14.286%, #303a73 28.571%, #3f5178 42.857%, #506876 57.143%, #627d6c 71.429%, #768e5b 85.714%, #899943 100.000%));color:var(--kb-c,#ffffff)}
 
 /* ─ Casino detail block ─────────────────────────────────── */
 .ne-8331{
     display:grid;grid-template-columns:1fr 1.4fr;gap:32px;
     padding:28px;margin:24px 0;
     border:1px solid var(--do-086);border-radius:12px;
-    background:var(--blk-bg,linear-gradient(225deg, #1b1451 0.000%, #242566 14.286%, #303a73 28.571%, #3f5178 42.857%, #506876 57.143%, #627d6c 71.429%, #768e5b 85.714%, #899943 100.000%));color:var(--blk-color,#ffffff);
+    background:var(--kb-b,linear-gradient(225deg, #1b1451 0.000%, #242566 14.286%, #303a73 28.571%, #3f5178 42.857%, #506876 57.143%, #627d6c 71.429%, #768e5b 85.714%, #899943 100.000%));color:var(--kb-c,#ffffff);
 }
 .jl-440{display:flex;flex-direction:column;gap:14px}
 .lj-9568{display:flex;flex-direction:column;gap:10px}
@@ -649,7 +649,7 @@ footer p{color:#ffffff!important}
 .bm-303{
     flex:1;padding:20px;border-radius:8px;
     border:1px solid var(--do-086);
-    background:var(--blk-bg,linear-gradient(225deg, #1b1451 0.000%, #242566 14.286%, #303a73 28.571%, #3f5178 42.857%, #506876 57.143%, #627d6c 71.429%, #768e5b 85.714%, #899943 100.000%));color:var(--blk-color,#ffffff);
+    background:var(--kb-b,linear-gradient(225deg, #1b1451 0.000%, #242566 14.286%, #303a73 28.571%, #3f5178 42.857%, #506876 57.143%, #627d6c 71.429%, #768e5b 85.714%, #899943 100.000%));color:var(--kb-c,#ffffff);
 }
 .lb-4118{border-left:4px solid #28a745}
 .cf-103{border-left:4px solid #dc3545}
@@ -663,7 +663,7 @@ footer p{color:#ffffff!important}
     display:flex;flex-direction:row;align-items:flex-start;gap:16px;
     padding:20px;
     border:1px solid var(--do-086);border-radius:10px;
-    background:var(--blk-bg,linear-gradient(225deg, #1b1451 0.000%, #242566 14.286%, #303a73 28.571%, #3f5178 42.857%, #506876 57.143%, #627d6c 71.429%, #768e5b 85.714%, #899943 100.000%));color:var(--blk-color,#ffffff);
+    background:var(--kb-b,linear-gradient(225deg, #1b1451 0.000%, #242566 14.286%, #303a73 28.571%, #3f5178 42.857%, #506876 57.143%, #627d6c 71.429%, #768e5b 85.714%, #899943 100.000%));color:var(--kb-c,#ffffff);
 }
 .om-2405{
     width:52px;height:52px;flex-shrink:0;
@@ -686,8 +686,8 @@ footer p{color:#ffffff!important}
     display:flex;flex-direction:row;align-items:flex-start;gap:14px;
     padding:24px;border-radius:12px;
     border:1px solid var(--do-086);
-    background:var(--blk-bg,linear-gradient(225deg, #1b1451 0.000%, #242566 14.286%, #303a73 28.571%, #3f5178 42.857%, #506876 57.143%, #627d6c 71.429%, #768e5b 85.714%, #899943 100.000%));
-    color:var(--blk-color,#ffffff);
+    background:var(--kb-b,linear-gradient(225deg, #1b1451 0.000%, #242566 14.286%, #303a73 28.571%, #3f5178 42.857%, #506876 57.143%, #627d6c 71.429%, #768e5b 85.714%, #899943 100.000%));
+    color:var(--kb-c,#ffffff);
 }
 .mp-191{width:48px;height:48px;object-fit:contain;flex-shrink:0}
 .mh-5311{display:flex;flex-direction:column;gap:6px;flex:1;min-width:0}
@@ -917,13 +917,17 @@ footer p{color:#ffffff!important}
             transition: 0.3s; white-space: nowrap;
             position: relative; overflow: hidden;
         }
+        @keyframes cfa5a35 {
+            0%   { transform: translateX(-130%) skewX(-20deg); }
+            100% { transform: translateX(230%)  skewX(-20deg); }
+        }
         .cc-2766 a::after {
             content: '';
             position: absolute; top: 0; left: 0;
-            width: 45%; height: 100%;
-            background: linear-gradient(to right, transparent, rgba(255,255,255,0.28), transparent);
-            animation: mk-064shimmer 2.8s ease-in-out infinite;
-            animation-delay: var(--shimmer-delay, 0s);
+            width: 47%; height: 100%;
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.34), transparent);
+            animation: cfa5a35 3.1s ease-in-out infinite;
+            animation-delay: var(--7550e0, 0s);
             pointer-events: none;
         }
         .cc-2766 a:hover { transform: scale(1.03); }
@@ -1146,7 +1150,7 @@ footer p{color:#ffffff!important}
                     </button>
                 </div>
                     
-                                        <div class="ch-9551">
+                                                    <div class="ch-9551">
                                     <div class="ag-328">
                         <img src="img/4cb920b28c10c88a678377432d214a0a.webp"
                              alt="Nicolas Lefèvre"
@@ -1158,16 +1162,33 @@ footer p{color:#ffffff!important}
                                 <div>
                                             <strong>Nicolas Lefèvre</strong>
                                                                 <span class="nl-962">Expert en casinos en ligne et rédacteur</span>
-                                        <span>Posledná aktualizácia: 17 juillet 2026</span>
+                                        <span>Dernière mise à jour : 3 août 2026</span>
                                     </div>
             </div>
                                                 <a href="#ob-566" class="mk-064">
                         Jouer maintenant                    </a>
                             </div>
             
-                                    <div class="oh-512">
+                                                <div class="oh-512">
                                 <div class="dc-220">
                     <div class="fn-007">#1</div>
+                                        <div class="ca-490">
+                        <img src="img/f86afa3e2aca7c3d4a0ee6318daf1ce4.webp" alt="Woolbet">
+                    </div>
+                                        <div class="bn-346">
+                        
+                        <span>Woolbet</span>
+                        <span class="mc-9103">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="#00c8a0"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#00c8a0"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#00c8a0"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#00c8a0"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#00c8a0"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg>                            5/5
+                        </span>
+                    </div>
+
+                                        <div class="kc-4450">Jusqu&#039;à 3003 € + 303% de bonus + 303 FS</div>
+                                                            <a href="/bet480/woolbet/" class="lp-404" target="_blank" rel="nofollow noopener">
+                        Jouer maintenant                    </a>
+                                    </div>
+                                <div class="dc-220">
+                    <div class="fn-007">#2</div>
                                         <div class="ca-490">
                         <img src="img/8081805e5c31b1dd6e81db9dad1b317c.webp" alt="Grandz">
                     </div>
@@ -1179,12 +1200,12 @@ footer p{color:#ffffff!important}
                         </span>
                     </div>
 
-                                        <div class="kc-4450">100 % jusqu&#039;à 1 000 € + Casino Live</div>
-                                                            <a href="/play220/grandz/" class="lp-404" target="_blank" rel="nofollow noopener">
+                                        <div class="kc-4450">100 % jusqu&#039;à 1 000 € + Bonus Live</div>
+                                                            <a href="/lucky436/grandz/" class="lp-404" target="_blank" rel="nofollow noopener">
                         Jouer maintenant                    </a>
                                     </div>
                                 <div class="dc-220">
-                    <div class="fn-007">#2</div>
+                    <div class="fn-007">#3</div>
                                         <div class="ca-490">
                         <img src="img/10d6419327ec30eee91bd17c1c645615.webp" alt="Winkingdom">
                     </div>
@@ -1197,24 +1218,7 @@ footer p{color:#ffffff!important}
                     </div>
 
                                         <div class="kc-4450">Pack de bienvenue : 15 000 € + 450 TG</div>
-                                                            <a href="/casino576/winkingdom/" class="lp-404" target="_blank" rel="nofollow noopener">
-                        Jouer maintenant                    </a>
-                                    </div>
-                                <div class="dc-220">
-                    <div class="fn-007">#3</div>
-                                        <div class="ca-490">
-                        <img src="img/a208cff2b2d055f0d46d23fa23a22a05.webp" alt="Kazeeno">
-                    </div>
-                                        <div class="bn-346">
-                        
-                        <span>Kazeeno</span>
-                        <span class="mc-9103">
-                            <svg width="12" height="12" viewBox="0 0 24 24" fill="#00c8a0"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#00c8a0"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#00c8a0"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#00c8a0"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#00c8a0"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg>                            5/5
-                        </span>
-                    </div>
-
-                                        <div class="kc-4450">Bonus de Bienvenue : 3 250 € + 225 FS</div>
-                                                            <a href="/lucky957/kazeeno/" class="lp-404" target="_blank" rel="nofollow noopener">
+                                                            <a href="/game327/winkingdom/" class="lp-404" target="_blank" rel="nofollow noopener">
                         Jouer maintenant                    </a>
                                     </div>
                                 <div class="dc-220">
@@ -1231,7 +1235,7 @@ footer p{color:#ffffff!important}
                     </div>
 
                                         <div class="kc-4450">300 % jusqu&#039;à 3 250 EUR + 225 FS</div>
-                                                            <a href="/golden182/betory/" class="lp-404" target="_blank" rel="nofollow noopener">
+                                                            <a href="/win968/betory/" class="lp-404" target="_blank" rel="nofollow noopener">
                         Jouer maintenant                    </a>
                                     </div>
                             </div>
@@ -1261,6 +1265,41 @@ footer p{color:#ffffff!important}
 
     <td class="me-3401">
         <div class="cf-413">
+                            <img src="img/f86afa3e2aca7c3d4a0ee6318daf1ce4.webp" alt="Woolbet">
+                                        <div class="lm-874">
+                    Woolbet                </div>
+                                </div>
+    </td>
+
+    <td class="kf-2490">
+                    <strong>Jusqu&#039;à 3003 € + 303% de bonus + 303 FS</strong>
+            </td>
+
+    <td class="jm-3208">
+                    <ul>
+<li>Paiements instantanés</li>
+<li>Casino en direct</li>
+<li>Programme VIP</li>
+<li>Support 24/7</li>
+</ul>
+            </td>
+
+    <td class="hk-411">
+        <span class="ci-782">5/5</span><span class="jl-2069"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
+
+    <td class="mb-771">
+                                <a href="/top267/woolbet/"
+               class="mk-064"
+               style="--7550e0:0s"
+               target="_blank" rel="nofollow noopener">
+               Jouer maintenant            </a>
+            </td>
+</tr>
+                                <tr class="ih-422 mn-094" style="border-color:#00c8a0;">
+    <td class="oh-454">2</td>
+
+    <td class="me-3401">
+        <div class="cf-413">
                             <img src="img/8081805e5c31b1dd6e81db9dad1b317c.webp" alt="Grandz">
                                         <div class="lm-874">
                     Grandz                </div>
@@ -1284,15 +1323,15 @@ footer p{color:#ffffff!important}
         <span class="ci-782">5/5</span><span class="jl-2069"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
 
     <td class="mb-771">
-                                <a href="/top267/grandz/"
+                                <a href="/lucky394/grandz/"
                class="mk-064"
-               style="--shimmer-delay:0s"
+               style="--7550e0:0.61s"
                target="_blank" rel="nofollow noopener">
                Jouer maintenant            </a>
             </td>
 </tr>
                                 <tr class="ih-422 mn-094" style="border-color:#00c8a0;">
-    <td class="oh-454">2</td>
+    <td class="oh-454">3</td>
 
     <td class="me-3401">
         <div class="cf-413">
@@ -1307,11 +1346,11 @@ footer p{color:#ffffff!important}
             </td>
 
     <td class="jm-3208">
-                    <ul class="[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3">
-<li class="font-claude-response-body whitespace-normal break-words pl-2">Retraits rapides</li>
-<li class="font-claude-response-body whitespace-normal break-words pl-2">Vaste sélection de jeux</li>
-<li class="font-claude-response-body whitespace-normal break-words pl-2">Bonus quotidiens</li>
-<li class="font-claude-response-body whitespace-normal break-words pl-2">Sécurisé &amp; licencié</li>
+                    <ul>
+<li>Retraits rapides</li>
+<li>Vaste sélection de jeux</li>
+<li>Bonus quotidiens</li>
+<li>Sécurisé &amp; licencié</li>
 </ul>
             </td>
 
@@ -1321,42 +1360,7 @@ footer p{color:#ffffff!important}
     <td class="mb-771">
                                 <a href="/bet661/winkingdom/"
                class="mk-064"
-               style="--shimmer-delay:0.45s"
-               target="_blank" rel="nofollow noopener">
-               Jouer maintenant            </a>
-            </td>
-</tr>
-                                <tr class="ih-422 mn-094" style="border-color:#00c8a0;">
-    <td class="oh-454">3</td>
-
-    <td class="me-3401">
-        <div class="cf-413">
-                            <img src="img/a208cff2b2d055f0d46d23fa23a22a05.webp" alt="Kazeeno">
-                                        <div class="lm-874">
-                    Kazeeno                </div>
-                                </div>
-    </td>
-
-    <td class="kf-2490">
-                    <strong>Bonus de Bienvenue : 3 250 € + 225 FS</strong>
-            </td>
-
-    <td class="jm-3208">
-                    <ul>
-<li data-section-id="171b72k" data-start="338" data-end="356">Retraits express</li>
-<li data-section-id="1e17ev0" data-start="357" data-end="373">Tours gratuits</li>
-<li data-section-id="6b6d6c" data-start="374" data-end="389">Casino fiable</li>
-<li data-section-id="1x10l9x" data-start="390" data-end="413" data-is-last-node="">Promotions exclusives</li>
-</ul>
-            </td>
-
-    <td class="hk-411">
-        <span class="ci-782">5/5</span><span class="jl-2069"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
-
-    <td class="mb-771">
-                                <a href="/bet262/kazeeno/"
-               class="mk-064"
-               style="--shimmer-delay:0.9s"
+               style="--7550e0:1.22s"
                target="_blank" rel="nofollow noopener">
                Jouer maintenant            </a>
             </td>
@@ -1389,9 +1393,44 @@ footer p{color:#ffffff!important}
         <span class="ci-782">5/5</span><span class="jl-2069"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
 
     <td class="mb-771">
-                                <a href="/golden988/betory/"
+                                <a href="/best386/betory/"
                class="mk-064"
-               style="--shimmer-delay:1.35s"
+               style="--7550e0:1.83s"
+               target="_blank" rel="nofollow noopener">
+               Jouer maintenant            </a>
+            </td>
+</tr>
+                                <tr class="ih-422" >
+    <td class="oh-454">5</td>
+
+    <td class="me-3401">
+        <div class="cf-413">
+                            <img src="img/d0613ff19f8cd24be78c95027074fa14.webp" alt="Betzino">
+                                        <div class="lm-874">
+                    Betzino                </div>
+                                </div>
+    </td>
+
+    <td class="kf-2490">
+                    <strong>200% sur votre premier dépôt jusqu&#039;à 200 €</strong>
+            </td>
+
+    <td class="jm-3208">
+                    <ul>
+<li>Retraits rapides</li>
+<li>Large choix de jeux</li>
+<li>Bonus quotidiens</li>
+<li>Sécurisé &amp; licencié</li>
+</ul>
+            </td>
+
+    <td class="hk-411">
+        <span class="ci-782">5/5</span><span class="jl-2069"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 .587l3.668 7.431L24 9.753l-6 5.847L19.335 24 12 20.201 4.665 24 6 15.6 0 9.753l8.332-1.735z"/></svg></span>    </td>
+
+    <td class="mb-771">
+                                <a href="/bonus511/betzino/"
+               class="mk-064"
+               style="--7550e0:2.44s"
                target="_blank" rel="nofollow noopener">
                Jouer maintenant            </a>
             </td>
@@ -1757,31 +1796,31 @@ footer p{color:#ffffff!important}
             <div class="fo-2137">
                 <ul class="ck-2434">
                                         <li>
-                                                <img src="img/b260751959c199d3b5ccd3f0ea84be75.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
+                                                <img src="img/2c5c3b6f22e4db444adbe420dca2e72d.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
                                             </li>
                                         <li>
-                                                <img src="img/4f973d3e40307f663a11e2c12d36b833.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
+                                                <img src="img/db27809778ca78126a6fb9b363721a45.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
+                                            </li>
+                                        <li>
+                                                <img src="img/39f9260d968a283275401cd1553fc003.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
+                                            </li>
+                                        <li>
+                                                <img src="img/b260751959c199d3b5ccd3f0ea84be75.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
                                             </li>
                                         <li>
                                                 <img src="img/0a01edff442167898d4ee51a874fdac9.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
                                             </li>
                                         <li>
-                                                <img src="img/2c5c3b6f22e4db444adbe420dca2e72d.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
+                                                <img src="img/070f8bdade1f539f82bc4fbe7c778c31.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
                                             </li>
                                         <li>
-                                                <img src="img/39f9260d968a283275401cd1553fc003.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
+                                                <img src="img/4f973d3e40307f663a11e2c12d36b833.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
                                             </li>
                                         <li>
                                                 <img src="img/f60c085644494e72550347778660a08f.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
                                             </li>
                                         <li>
                                                 <img src="img/70ca4e68fc1cb3c4b97d850e92b2c9f5.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
-                                            </li>
-                                        <li>
-                                                <img src="img/070f8bdade1f539f82bc4fbe7c778c31.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
-                                            </li>
-                                        <li>
-                                                <img src="img/db27809778ca78126a6fb9b363721a45.svg" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides" style="max-height:36px;">
                                             </li>
                                     </ul>
             </div>
@@ -1792,8 +1831,8 @@ footer p{color:#ffffff!important}
             </div>
 </footer>
 
-    <a href="/slots435/grandz/" class="nb-440">
-        <img src="img/cccd030f82820a9b0d915e78699bc98e.webp" class="ha-6746" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides">
+    <a href="/game880/woolbet/" class="nb-440">
+        <img src="img/6492bd30d39a07cfff2b2a3c0034c0fc.webp" class="ha-6746" alt="Meilleur Casino en Ligne France 2026 – Top 10 pour des Retraits Rapides">
     </a>
 
 <script>
